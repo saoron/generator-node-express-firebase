@@ -200,8 +200,6 @@ An example server component in `server/api`
 
 ## Contribute
 
-By seperating the current stable code from the cutting-edge development we hope to provide a stable and efficient workflow for users and developers alike.
-
 When submitting an issue, please follow the [guidelines](https://github.com/yeoman/yeoman/blob/master/contributing.md#issue-submission). Especially important is to make sure Yeoman is up-to-date, and providing the command or commands that cause the issue.
 
 When submitting a bugfix, try to write a test that exposes the bug and fails before applying your fix. Submit the test alongside the fix.
