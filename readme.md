@@ -45,12 +45,12 @@ Run `grunt` for building, `grunt serve` for preview, and `grunt serve:dist` for 
 Available generators:
 
 * App
-    - [angular-fullstack](#app) (aka [angular-fullstack:app](#app))
+    - [node-express-mongo](#app) (aka [node-express-mongo:app](#app))
 * Server Side
-    - [angular-fullstack:endpoint](#endpoint)
+    - [node-express-mongo:endpoint](#endpoint)
 * Deployment
-    - [angular-fullstack:openshift](#openshift)
-    - [angular-fullstack:heroku](#heroku)
+    - [node-express-mongo:openshift](#openshift)
+    - [node-express-mongo:heroku](#heroku)
 
 ### App
 Sets up a new Npde Express Mongo app, generating all the boilerplate you need to get started.
@@ -186,7 +186,6 @@ Overview
         ├── config              - Where we do the bulk of our apps configuration
         │   └── local.env.js    - Keep our environment variables out of source control
         │   └── environment     - Configuration specific to the node environment
-        └── views               - Server rendered views
 
 
 An example server component in `server/api`
@@ -204,8 +203,6 @@ An example server component in `server/api`
 By seperating the current stable code from the cutting-edge development we hope to provide a stable and efficient workflow for users and developers alike.
 
 When submitting an issue, please follow the [guidelines](https://github.com/yeoman/yeoman/blob/master/contributing.md#issue-submission). Especially important is to make sure Yeoman is up-to-date, and providing the command or commands that cause the issue.
-
-When submitting a PR, make sure that the commit messages match the [AngularJS conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/).
 
 When submitting a bugfix, try to write a test that exposes the bug and fails before applying your fix. Submit the test alongside the fix.
 
