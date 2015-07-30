@@ -6,7 +6,8 @@ module.exports = {
   rewrite: rewrite,
   rewriteFile: rewriteFile,
   appName: appName,
-  processDirectory: processDirectory
+  processDirectory: processDirectory,
+  capitalizeFirstLetter: capitalizeFirstLetter
 };
 
 function rewriteFile (args) {
@@ -21,6 +22,10 @@ function rewriteFile (args) {
 
 function escapeRegExp (str) {
   return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, '\\$&');
+}
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 function rewrite (args) {

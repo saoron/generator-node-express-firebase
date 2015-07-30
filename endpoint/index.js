@@ -55,6 +55,35 @@ Generator.prototype.registerEndpoint = function registerEndpoint() {
     ngUtil.rewriteFile(routeConfig);
   }
 
+  if(this.config.get('insertSeed')) {
+    var seedModelConfig = {
+      file: this.config.get('registerSeedFile'),
+      needle: this.config.get('seedModelNeedle'),
+      splicable: [
+        "var " + ngUtil.capitalizeFirstLetter(this.name) + " = require(\'../api/" + this.name + "/" + this.name + ".model\');"
+      ]
+    };
+    ngUtil.rewriteFile(seedModelConfig);
+
+    var seedDataConfig = {
+      file: this.config.get('registerSeedFile'),
+      needle: this.config.get('seedDataNeedle'),
+      splicable: [
+        "var " + this.name + "Seed = require(\'../api/" + this.name + "/" + this.name + ".seed.json\');"
+      ]
+    };
+    ngUtil.rewriteFile(seedDataConfig);
+
+    var seedInsertConfig = {
+      file: this.config.get('registerSeedFile'),
+      needle: this.config.get('seedInsertNeedle'),
+      splicable: [
+        ngUtil.capitalizeFirstLetter(this.name) + ".find({}).remove(function() {\n\t" + ngUtil.capitalizeFirstLetter(this.name) + ".create(" + this.name + "Seed);\n});\n"
+      ]
+    };
+    ngUtil.rewriteFile(seedInsertConfig);
+  }
+
   if (this.filters.socketio) {
     if(this.config.get('insertSockets')) {
       var socketConfig = {

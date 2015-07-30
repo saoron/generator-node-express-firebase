@@ -152,7 +152,7 @@ module.exports = function (grunt) {
         ]
       ];
 
-      var gen = helpers.createGenerator('angular-fullstack:app', deps);
+      var gen = helpers.createGenerator('node-express:app', deps);
 
       helpers.mockPrompt(gen, options);
       gen.run({}, function () {

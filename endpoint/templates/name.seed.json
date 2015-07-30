@@ -1,0 +1,12 @@
+[
+	{
+		"name": "the name",
+  		"info": "description",
+  		"active": true
+	},
+	{
+		"name": "the second name",
+  		"info": "description #2",
+  		"active": true
+	}
+]
