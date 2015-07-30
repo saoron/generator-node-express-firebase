@@ -4,7 +4,7 @@
 
 ## Example project
 
-Generated with defaults: http://fullstack-demo.herokuapp.com/.
+Generated with defaults from parent repo (DaftMonk/generator-angular-fullstack): http://fullstack-demo.herokuapp.com/.
 
 Source code: https://github.com/Liam-Williams/generator-node-express-mongo
 
