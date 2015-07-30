@@ -4,13 +4,13 @@
 
 ## Diff from [DaftMonk/generator-angular-fullstack](https://github.com/DaftMonk/generator-angular-fullstack)
 
-generator-node-express-mongo originated from v2.1.1 of generator-angular-fullstack
+> generator-node-express-mongo originated from v2.1.1 of generator-angular-fullstack
 
->    Removed all client generation (Angular tier of the stack)
->    Added seed files to the endpoint generator:
->
->    * model.seed.json to the new endpoint folder under api/model
->    * addition to config/seed.js to load Model, Seed Data, clear any existing data in the DB, and loads the new seed data
+    **Removed all client generation (Angular tier of the stack)**
+    **Added seed files to the endpoint generator:**
+
+    * model.seed.json to the new endpoint folder under api/model
+    * addition to config/seed.js to load Model, Seed Data, clear any existing data in the DB, and loads the new seed data
 
 
 ## Example project
