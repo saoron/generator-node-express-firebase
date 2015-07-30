@@ -4,7 +4,7 @@
 
 ## Diff from [DaftMonk/generator-angular-fullstack](https://github.com/DaftMonk/generator-angular-fullstack)
 
-> generator-node-express-mongo originated from v2.1.1 of generator-angular-fullstack
+> generator-node-express-mongo originated from generator-angular-fullstack v2.1.1
 
 **Removed all client generation (Angular tier of the stack)**
 **Added seed files to the endpoint generator:**
