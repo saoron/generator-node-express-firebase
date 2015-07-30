@@ -84,7 +84,7 @@ Produces:
 
 Deploying to OpenShift can be done in just a few steps:
 
-    yo angular-fullstack:openshift
+    yo node-express-mongo:openshift
 
 A live application URL will be available in the output.
 
@@ -121,7 +121,7 @@ Commit and push the resulting build, located in your dist folder:
 
 Deploying to heroku only takes a few steps.
 
-    yo angular-fullstack:heroku
+    yo node-express-mongo:heroku
 
 To work with your new heroku app using the command line, you will need to run any `heroku` commands from the `dist` folder.
 
