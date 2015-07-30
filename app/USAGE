@@ -1,5 +1,5 @@
 Description:
-    Creates an full-stack AngularJS + Node app
+    Creates a MEN (Mongo, Express, Node) Stack app
 
 Example:
-    yo angular-fullstack
+    yo node-express

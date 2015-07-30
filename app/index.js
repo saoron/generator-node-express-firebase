@@ -60,6 +60,8 @@ var AngularFullstackGenerator = yeoman.generators.Base.extend({
   },
 
   clientPrompts: function() {
+    var dontIncludeClient = true;
+    if (dontIncludeClient) return;
     if(this.skipConfig) return;
     var cb = this.async();
 
