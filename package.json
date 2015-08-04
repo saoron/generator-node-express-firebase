@@ -1,6 +1,6 @@
 {
   "name": "generator-node-express-mongo",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Yeoman generator for creating MEN stack applications, using MongoDB, Express, and Node",
   "keywords": [
     "yeoman-generator",
@@ -12,12 +12,12 @@
     "component",
     "app"
   ],
-  "homepage": "https://github.com/Liam-Williams/generator-node-express",
-  "bugs": "https://github.com/Liam-Williams/generator-node-express/issues",
+  "homepage": "https://github.com/Liam-Williams/generator-node-express-mongo",
+  "bugs": "https://github.com/Liam-Williams/generator-node-express-mongo/issues",
   "author": "Liam Williams",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Liam-Williams/generator-node-express.git"
+    "url": "git://github.com/Liam-Williams/generator-node-express-mongo.git"
   },
   "scripts": {
     "test": "grunt test"

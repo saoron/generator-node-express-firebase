@@ -2,4 +2,4 @@ Description:
     Creates a MEN (Mongo, Express, Node) Stack app
 
 Example:
-    yo node-express
+    yo node-express-mongo
