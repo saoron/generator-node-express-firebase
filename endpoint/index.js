@@ -84,7 +84,7 @@ Generator.prototype.registerEndpoint = function registerEndpoint() {
     ngUtil.rewriteFile(seedInsertConfig);
   }
 
-  if (this.filters.socketio) {
+  if (this.filters && this.filters.socketio) {
     if(this.config.get('insertSockets')) {
       var socketConfig = {
         file: this.config.get('registerSocketsFile'),
