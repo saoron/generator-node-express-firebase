@@ -1,6 +1,6 @@
 {
   "name": "generator-node-express-mongo",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Yeoman generator for creating MEN stack applications, using MongoDB, Express, and Node",
   "keywords": [
     "yeoman-generator",
