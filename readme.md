@@ -31,7 +31,7 @@ Make a new directory, and `cd` into it:
 mkdir my-new-project && cd $_
 ```
 
-Run `yo angular-fullstack`, optionally passing an app name:
+Run `yo node-express-mongo`, optionally passing an app name:
 ```
 yo node-express-mongo [app-name]
 ```
