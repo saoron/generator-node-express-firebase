@@ -22,7 +22,7 @@ Generator.prototype.askFor = function askFor() {
 
   // pluralization defaults to true for backwards compat
   if (this.config.get('pluralizeRoutes') !== false) {
-    name = name + 's';
+    name = name ;
   }
 
   var prompts = [
