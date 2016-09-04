@@ -1,5 +1,5 @@
 Description:
-    Creates a MEN (Mongo, Express, Node) Stack app
+    Creates a FEN (Firebase, Express, Node) Stack app
 
 Example:
-    yo node-express-mongo
+    yo node-express-firebase
