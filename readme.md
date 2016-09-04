@@ -1,13 +1,11 @@
-# Node Express Mongo Stack generator
+# Node Express Firebase Stack generator
 
-> Yeoman generator for creating MEN stack applications, using MongoDB, Express, and Node - lets you quickly set up a project following best practices.
+> Yeoman generator for creating FEN stack applications, using Firebase, Express, and Node - lets you quickly set up a project following best practices.
 
-## Diff from [DaftMonk/generator-angular-fullstack](https://github.com/DaftMonk/generator-angular-fullstack)
+#### Diff from [DaftMonk/generator-angular-fullstack](https://github.com/DaftMonk/generator-angular-fullstack)
+#### Diff from [Liam-Williams/generator-node-express-mongo](https://github.com/Liam-Williams/generator-node-express-mongo)
+> generator-node-express-mongo originated from generator-angular-fullstack v2.1.1 
 
-> generator-node-express-mongo originated from generator-angular-fullstack v2.1.1
-
-**Removed all client generation (Angular tier of the stack)**
-**Added seed files to the endpoint generator:**
 
 * model.seed.json to the new endpoint folder under api/model
 * addition to config/seed.js to load Model, Seed Data, clear any existing data in the DB, and loads the new seed data
