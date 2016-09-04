@@ -5,6 +5,16 @@
 'use strict';
 
 var path = require('path');
+var config = require('./config/environment');
+var firebase = require("firebase");
+
+//initlize firebase
+firebase.initializeApp({
+  databaseURL: config.firebase.databaseURL,
+  serviceAccount: config.firebase.serviceAccount
+});
+
+
 
 module.exports = function(app) {
 

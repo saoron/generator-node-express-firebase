@@ -3,8 +3,9 @@
 // Test specific configuration
 // ===========================
 module.exports = {
-  // MongoDB connection options
-  mongo: {
-    uri: 'mongodb://localhost/<%= _.slugify(appname) %>-test'
-  }
+    // Firebase connection options
+    firebase: {
+        databaseURL: "https://<%= _.slugify(appname) %>.firebaseio.com",
+        serviceAccount: "<%= _.slugify(appname) %>/test.json"
+    }
 };
