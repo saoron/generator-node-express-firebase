@@ -10,21 +10,12 @@
     "cookie-parser": "~1.0.1",
     "express-session": "~1.0.2",
     "errorhandler": "~1.0.0",
+    "firebase": "^3.3.0",
     "compression": "~1.0.1",
-    "lodash": "~2.4.1",<% if(filters.mongoose) { %>
-    "mongoose": "~4.0.3",<% } %><% if(filters.auth) { %>
     "jsonwebtoken": "^5.0.0",
     "express-jwt": "^3.0.0",
     "passport": "~0.2.0",
-    "passport-local": "~0.1.6",<% } %><% if(filters.facebookAuth) { %>
-    "passport-facebook": "latest",<% } %><% if(filters.twitterAuth) { %>
-    "passport-twitter": "latest",<% } %><% if(filters.googleAuth) { %>
-    "passport-google-oauth": "latest",<% } %>
-    "composable-middleware": "^0.3.0",
-    "connect-mongo": "^0.8.1"<% if(filters.socketio) { %>,
-    "socket.io": "^1.0.6",
-    "socket.io-client": "^1.0.6",
-    "socketio-jwt": "^3.0.0"<% } %>
+    "composable-middleware": "^0.3.0"
   },
   "devDependencies": {
     "grunt": "~0.4.4",
