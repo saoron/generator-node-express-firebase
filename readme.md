@@ -4,7 +4,7 @@
 
 > generator-node-express-mongo originated from generator-angular-fullstack v2.1.1. Based on [DaftMonk/generator-angular-fullstack](https://github.com/DaftMonk/generator-angular-fullstack) and [Liam-Williams/generator-node-express-mongo](https://github.com/Liam-Williams/generator-node-express-mongo)
 
-Source code: https://github.com/Liam-Williams/generator-node-express-mongo
+Source code: https://github.com/saoron/generator-node-express-firebase
 
 ## Usage
 
