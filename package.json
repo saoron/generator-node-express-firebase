@@ -1,6 +1,6 @@
 {
   "name": "generator-node-express-firebase",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "description": "Yeoman generator for creating FEN stack applications, using Firebase, Express, and Node",
   "keywords": [
     "yeoman-generator",
