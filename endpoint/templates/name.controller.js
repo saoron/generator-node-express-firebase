@@ -1,6 +1,11 @@
 'use strict';
 
-var _ = require('lodash');<% if (filters.mongoose) { %>
+var firebase = require("firebase");
+var validator = require('validator');
+
+
+var config = require('../../config/environment');
+
 var <%= classedName %> = require('./<%= name %>.model');<% } %>
 
 // Get list of <%= name %>s
