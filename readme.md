@@ -53,9 +53,9 @@ Produces:
 
 ## Testing
 
-Running `grunt test` will run the client and server unit tests with karma and mocha.
+Running `grunt test` will run the server unit tests with karma and mocha.
 
-Use `grunt test:server` to only run server tests.
+
 
 ## Environment Variables
 
