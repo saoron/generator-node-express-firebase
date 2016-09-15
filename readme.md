@@ -23,7 +23,7 @@ Run `yo node-express-firebase`, optionally passing an app name:
 yo node-express-firebase [app-name]
 ```
 
-Run `grunt` for building, `grunt serve` for preview, and `grunt serve:dist` for a preview of the built app.
+Run `grunt` for building, `grunt serve` for preview.
 
 
 ## Supported Configurations
