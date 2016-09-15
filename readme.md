@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/generator-node-express-firebase.svg)](https://badge.fury.io/js/generator-node-express-firebase)
+
 # Node Express Firebase Stack generator
 
 > Yeoman generator for creating FEN stack applications, using Firebase, Express, and Node - lets you quickly set up a project following best practices.
